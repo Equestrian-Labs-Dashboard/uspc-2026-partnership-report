@@ -1,0 +1,11 @@
+{
+  "name": "uspc-2026-partnership-report",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static GitHub Pages partnership report for USPC 2026 discount code",
+  "type": "module",
+  "scripts": {
+    "sync": "node sync-uspc.js"
+  },
+  "dependencies": {}
+}
