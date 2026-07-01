@@ -1,6 +1,8 @@
 {
   "ok": true,
-  "generated": "",
+  "report_name": "USPC2026 Partnership Report",
+  "generated": "2026-07-01T13:10:20.633Z",
+  "generated_label": "Jul 1, 2026, 01:10 PM",
   "discount_code": "USPC2026",
   "commission_rate": 0.1,
   "year": 2026,
@@ -11,7 +13,121 @@
     "commission": 0,
     "avg_net_sale": 0
   },
-  "monthly": [],
-  "quarterly": [],
+  "monthly": [
+    {
+      "month": 1,
+      "month_name": "January",
+      "orders_count": 0,
+      "net_sales": 0,
+      "commission": 0
+    },
+    {
+      "month": 2,
+      "month_name": "February",
+      "orders_count": 0,
+      "net_sales": 0,
+      "commission": 0
+    },
+    {
+      "month": 3,
+      "month_name": "March",
+      "orders_count": 0,
+      "net_sales": 0,
+      "commission": 0
+    },
+    {
+      "month": 4,
+      "month_name": "April",
+      "orders_count": 0,
+      "net_sales": 0,
+      "commission": 0
+    },
+    {
+      "month": 5,
+      "month_name": "May",
+      "orders_count": 0,
+      "net_sales": 0,
+      "commission": 0
+    },
+    {
+      "month": 6,
+      "month_name": "June",
+      "orders_count": 0,
+      "net_sales": 0,
+      "commission": 0
+    },
+    {
+      "month": 7,
+      "month_name": "July",
+      "orders_count": 0,
+      "net_sales": 0,
+      "commission": 0
+    },
+    {
+      "month": 8,
+      "month_name": "August",
+      "orders_count": 0,
+      "net_sales": 0,
+      "commission": 0
+    },
+    {
+      "month": 9,
+      "month_name": "September",
+      "orders_count": 0,
+      "net_sales": 0,
+      "commission": 0
+    },
+    {
+      "month": 10,
+      "month_name": "October",
+      "orders_count": 0,
+      "net_sales": 0,
+      "commission": 0
+    },
+    {
+      "month": 11,
+      "month_name": "November",
+      "orders_count": 0,
+      "net_sales": 0,
+      "commission": 0
+    },
+    {
+      "month": 12,
+      "month_name": "December",
+      "orders_count": 0,
+      "net_sales": 0,
+      "commission": 0
+    }
+  ],
+  "quarterly": [
+    {
+      "quarter": "Q1",
+      "period": "Jan–Mar",
+      "orders_count": 0,
+      "net_sales": 0,
+      "commission": 0
+    },
+    {
+      "quarter": "Q2",
+      "period": "Apr–Jun",
+      "orders_count": 0,
+      "net_sales": 0,
+      "commission": 0
+    },
+    {
+      "quarter": "Q3",
+      "period": "Jul–Sep",
+      "orders_count": 0,
+      "net_sales": 0,
+      "commission": 0
+    },
+    {
+      "quarter": "Q4",
+      "period": "Oct–Dec",
+      "orders_count": 0,
+      "net_sales": 0,
+      "commission": 0
+    }
+  ],
   "orders": []
 }
