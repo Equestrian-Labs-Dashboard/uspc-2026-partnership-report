@@ -5,7 +5,7 @@ const SHOPIFY_STORE = requiredEnv('SHOPIFY_STORE');
 const SHOPIFY_TOKEN = requiredEnv('SHOPIFY_TOKEN');
 
 const API_VERSION = process.env.SHOPIFY_API_VERSION || '2026-07';
-const DISCOUNT_CODE = process.env.DISCOUNT_CODE || 'USPC 2026';
+const DISCOUNT_CODE = process.env.DISCOUNT_CODE || 'USPC2026';
 const REPORT_YEAR = Number(process.env.REPORT_YEAR || 2026);
 const COMMISSION_RATE = Number(process.env.COMMISSION_RATE || 0.10);
 
@@ -223,7 +223,7 @@ function buildReport(orders) {
 
   return {
     ok: true,
-    report_name: 'USPC 2026 Partnership Report',
+    report_name: 'USPC2026 Partnership Report',
     generated: new Date().toISOString(),
     generated_label: formatGeneratedLabel(new Date()),
     discount_code: DISCOUNT_CODE,
