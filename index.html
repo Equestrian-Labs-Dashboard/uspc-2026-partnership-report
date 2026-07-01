@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>USPC 2026 Partnership Report</title>
+<title>USPC2026 Partnership Report</title>
 
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
 
@@ -428,7 +428,7 @@ select.sel {
 
   <div class="hdr">
     <div class="hdr-left">
-      <h1>USPC 2026 <span>Partnership Report</span></h1>
+      <h1>USPC2026 <span>Partnership Report</span></h1>
       <div class="hdr-sub">Discount Code Sales · 10% Commission on Net Sales</div>
     </div>
 
@@ -599,7 +599,7 @@ function renderCurrent() {
   html += '<div class="cards-grid">';
   html += card('Net Sales', fmt(totals.net_sales), 'Total sales after discounts');
   html += card('Commission', fmt(totals.commission), '10% of Net Sales', true);
-  html += card('Orders', totals.orders_count, 'Orders using USPC 2026');
+  html += card('Orders', totals.orders_count, 'Orders using USPC2026');
   html += card('Avg Net Sale', fmt(totals.avg_net_sale), 'Average per order');
   html += '</div>';
 
@@ -614,7 +614,7 @@ function renderCurrent() {
 
   html += '<div class="footer">';
   html += '<span>Calculation:</span> Commission = Net Sale × 10%.<br>';
-  html += '<span>Discount Code:</span> Only orders using USPC 2026 are included in the generated data file.<br>';
+  html += '<span>Discount Code:</span> Only orders using USPC2026 are included in the generated data file.<br>';
   html += '<span>Security:</span> Shopify token is used only inside GitHub Actions secrets, never in this public page.<br>';
   html += '<span>Data Source:</span> Shopify Admin API via GitHub Actions.';
   html += '</div>';
@@ -711,7 +711,7 @@ function renderQuarterlyTable(rows) {
 
 function renderOrdersTable(orders) {
   if (!orders.length) {
-    return '<div class="notice">No orders found for this period using discount code USPC 2026.</div>';
+    return '<div class="notice">No orders found for this period using discount code USPC2026.</div>';
   }
 
   const body = orders.map((o) => {
@@ -726,7 +726,7 @@ function renderOrdersTable(orders) {
       + '<div class="product" title="' + escHtml(o.product) + '">' + escHtml(o.product) + '</div>'
       + '<div class="dim mono">Qty: ' + escHtml(o.quantity) + '</div>'
       + '</td>'
-      + '<td><span class="badge">' + escHtml(o.discount_code || 'USPC 2026') + '</span></td>'
+      + '<td><span class="badge">' + escHtml(o.discount_code || 'USPC2026') + '</span></td>'
       + '<td class="money">' + fmt(o.net_sale) + '</td>'
       + '<td class="comm">' + fmt(o.commission) + '</td>'
       + '</tr>';
