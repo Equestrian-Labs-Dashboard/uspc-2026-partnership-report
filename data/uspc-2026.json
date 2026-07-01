@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "generated": "",
+  "discount_code": "USPC 2026",
+  "commission_rate": 0.1,
+  "year": 2026,
+  "totals": {
+    "orders_count": 0,
+    "line_items_count": 0,
+    "net_sales": 0,
+    "commission": 0,
+    "avg_net_sale": 0
+  },
+  "monthly": [],
+  "quarterly": [],
+  "orders": []
+}
