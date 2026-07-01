@@ -1,4 +1,4 @@
-name: Sync USPC 2026 Report
+name: Sync USPC2026 Report
 
 on:
   workflow_dispatch:
@@ -21,7 +21,7 @@ jobs:
       SHOPIFY_TOKEN: ${{ secrets.SHOPIFY_TOKEN }}
       SHOPIFY_API_VERSION: "2026-07"
       REPORT_YEAR: "2026"
-      DISCOUNT_CODE: "USPC 2026"
+      DISCOUNT_CODE: "USPC2026"
       COMMISSION_RATE: "0.10"
       OUTPUT_FILE: "data/uspc-2026.json"
 
@@ -47,6 +47,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No report changes to commit."
           else
-            git commit -m "Update USPC 2026 report data"
+            git commit -m "Update USPC2026 report data"
             git push
           fi
